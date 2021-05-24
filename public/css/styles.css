@@ -178,7 +178,7 @@ img{
   color: var(--first-color);
 }
 .nav__toggle{
-  color: var(--second-color);
+  color: var(--first-color);
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -230,13 +230,14 @@ img{
 .home__img{
   position: absolute;
   right: 0;
-  bottom: 0;
-  width: 295px;
+  bottom: 14%;
+  width:295px;
+
 }
 
 .home__img img{
   position: relative;
-  top: 2rem;
+  /*top: 2rem;*/
   border-radius: .5rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.38);
 }
@@ -359,11 +360,13 @@ img{
 }
 .box h1 {
   font-size: 1.3rem;
+  color:#fff;
 }
 .box p {
   margin-top: 0.5rem;
   font-size: 1rem;
   font-weight: 300;
+  color:#fff;
 }
 .work-content .box:hover {
   transform: translateY(-10px);
