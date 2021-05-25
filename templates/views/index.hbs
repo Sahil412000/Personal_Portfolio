@@ -40,7 +40,7 @@
             <!--===== HOME =====-->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
-                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Sahil</span><br> Web Developer</h1>
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Sahil</span><br><span class="typing-text"></span></h1>
                     <a href="/resume/Sahil_Punjabi_Resume (1).pdf" download class="button">Download Resume</a>
                 </div>
                 <div class="home__social">
@@ -232,5 +232,13 @@
 
         <!--===== MAIN JS =====-->
         <script src="js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+        <script>
+            var typed = new Typed('.typing-text', {
+            strings: ['web developer', 'ui/ux designer', 'programmer', 'sports person'],
+            typeSpeed:120,
+            loop:true
+            });
+        </script>
     </body>
 </html>
